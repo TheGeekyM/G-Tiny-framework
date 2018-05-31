@@ -2,14 +2,14 @@
 <?php
 // application.php
 
-require __DIR__.'/vendor/autoload.php';
-require __DIR__.'/helpers.php';
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/helpers.php';
 
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
 // ... register commands
-$application->add(new \App\Commands\CVParser());
+//$application->add(new \App\Commands\Proccess());
 
 $application->run();

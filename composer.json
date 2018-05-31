@@ -1,10 +1,18 @@
 {
-	"require": {
-		"symfony/console": "^3.4"
-	},
-	"autoload": {
-		"psr-4": {
-			"App\\": "app/"
-		}
-	}
+  "require": {
+    "symfony/console": "^3.4",
+    "symfony/templating": "^4.0",
+    "symfony/http-foundation": "^4.0",
+    "symfony/http-kernel": "^4.0",
+    "symfony/routing": "^4.0",
+    "philo/laravel-blade": "3.*",
+    "illuminate/database": "^5.6",
+    "illuminate/validation": "5.6.*",
+    "filp/whoops": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
 }
