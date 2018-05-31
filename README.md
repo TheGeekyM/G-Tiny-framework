@@ -53,7 +53,8 @@ Sometimes you may need to apply filters to a group of routes. Instead of specify
 $router->group(array('namespace' => 'Admin'), function()
 {
     //
-});```
+});
+```
 
 Available Router Methods
 The router allows you to register routes that respond to any HTTP verb:
