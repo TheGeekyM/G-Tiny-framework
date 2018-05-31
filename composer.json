@@ -4,13 +4,17 @@
     "symfony/templating": "^4.0",
     "symfony/http-foundation": "^4.0",
     "symfony/http-kernel": "^4.0",
-    "symfony/routing": "^4.0",
     "philo/laravel-blade": "3.*",
     "illuminate/database": "^5.6",
     "illuminate/validation": "5.6.*",
-    "filp/whoops": "^2.1"
+    "filp/whoops": "^2.1",
+    "illuminate/routing": "^5.5",
+    "illuminate/events": "^5.5"
   },
   "autoload": {
+    "files": [
+      "app/helpers.php"
+    ],
     "psr-4": {
       "App\\": "app/"
     }

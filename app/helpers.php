@@ -1,13 +1,11 @@
 <?php
 
-use Philo\Blade\Blade;
-
 function view($markup)
 {
     $views = __DIR__ . '/../resources/views';
     $cache = __DIR__ . '/../storage/cache';
 
-    $blade = new Blade($views, $cache);
+    $blade = new \Philo\Blade\Blade($views, $cache);
     echo $blade->view()->make($markup)->render();
 }
 
