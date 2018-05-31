@@ -4,6 +4,6 @@ class HomeController
 {
     public function view()
     {
-        view('home');
+        return view('home');
     }
 }

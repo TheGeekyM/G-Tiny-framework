@@ -4,6 +4,6 @@ class AuthController
 {
     public function login()
     {
-        view('admin.login');
+        return view('admin.login');
     }
 }

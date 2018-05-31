@@ -5,11 +5,11 @@ class HomeController
 {
     public function view()
     {
-        view('admin.home');
+        return view('admin.home');
     }
 
     public function login()
     {
-        view('admin.login');
+        return view('admin.login');
     }
 }

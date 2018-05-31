@@ -5,10 +5,10 @@ $loader->register();
 
 
 // Include all files you want from listed directories
-$directories = [ 'app/Providers/', 'framework/', 'app/' ];
+$directories = [ 'app/Exceptions', 'framework', 'app' ];
 
 foreach ($directories as $directory) {
-    foreach (glob($directory . "*.php") as $file) {
+    foreach (glob($directory . "/*.php") as $file) {
         require_once $file;
     }
 }
