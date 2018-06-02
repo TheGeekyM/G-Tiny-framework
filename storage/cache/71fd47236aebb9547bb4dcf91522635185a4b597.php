@@ -51,5 +51,5 @@
                 opacity: 0
             }
         }</style>
-    <link href="<?php echo e(public_path('admin/css/style.css')); ?>" rel="stylesheet">
+    <link href="<?php echo e(public_path('admin/style.css')); ?>" rel="stylesheet">
 </head>

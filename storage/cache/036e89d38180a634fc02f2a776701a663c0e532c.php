@@ -2,5 +2,5 @@
                 href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a>. All rights reserved.</span>
 </footer>
 
-<script type="text/javascript" src="<?php echo e(public_path('admin/js/vendor.js')); ?>"></script>
-<script type="text/javascript" src="<?php echo e(public_path('admin/js/bundle.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(public_path('admin/vendor.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(public_path('admin/bundle.js')); ?>"></script>

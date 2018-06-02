@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/container" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/database" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/encryption" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/events" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/filesystem" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/http" />

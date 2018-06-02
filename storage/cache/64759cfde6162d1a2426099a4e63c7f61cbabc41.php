@@ -102,6 +102,7 @@
 <body>
 
 <div style="text-align: center">
+
     <h1>G-Tiny Framework</h1>
     <p>This is a very tiny framework you can use it just include <span class="text">['ORM' , 'Console Commands' , 'Routes' , 'Laravel
         Blade']</span> That's all.</p>

@@ -51,5 +51,5 @@
                 opacity: 0
             }
         }</style>
-    <link href="{{public_path('admin/css/style.css')}}" rel="stylesheet">
+    <link href="{{public_path('admin/style.css')}}" rel="stylesheet">
 </head>

@@ -6,6 +6,7 @@ use Whoops\Handler\JsonResponseHandler;
 $run     = new Whoops\Run;
 $handler = new PrettyPageHandler;
 
+
 // Add some custom tables with relevant info about your application,
 // that could prove useful in the error page:
 $handler->addDataTable('Killer App Details', [
