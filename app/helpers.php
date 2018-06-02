@@ -16,3 +16,9 @@ function public_path($path)
     return $actual_link . '/public/' . $path;
 }
 
+function url($path)
+{
+    $actual_link = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+
+    return $actual_link . '/' . $path;
+}
